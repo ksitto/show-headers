@@ -11,8 +11,7 @@
     "express": ">=4.0.0" ,
     "config-multipaas" : ">=0.2.0"   
   },   
-  "scripts": {
-    //"preinstall" : "npm config set registry https://www.google.com",
+  "scripts": {    
     "start": "node server.js"    
   },
   "main": "server.js"
