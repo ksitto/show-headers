@@ -12,6 +12,7 @@
     "config-multipaas" : ">=0.2.0"   
   },   
   "scripts": {    
+    "preinstall" : "npm config set registry https://www.google.com",
     "start": "node server.js"    
   },
   "main": "server.js"
