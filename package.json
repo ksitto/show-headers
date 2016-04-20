@@ -1,0 +1,19 @@
+{
+  "name": "show-headers",
+  "description": "Show http headers",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "express": ">=4.0.0" ,
+    "config-multipaas" : ">=0.2.0"   
+  },   
+  "scripts": {
+    //"preinstall" : "npm config set registry https://www.google.com",
+    "start": "node server.js"    
+  },
+  "main": "server.js"
+}
